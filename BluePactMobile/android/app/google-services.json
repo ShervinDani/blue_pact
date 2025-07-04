@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "776551166989",
+    "project_id": "bluepact",
+    "storage_bucket": "bluepact.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776551166989:android:ce558f9b3b3996e38a1144",
+        "android_client_info": {
+          "package_name": "com.shervindani.BluePactMobile"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvxGXGNjXcSUQ75qMLNuCiee6H3fSe4Qw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

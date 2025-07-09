@@ -19,15 +19,12 @@ import lombok.NonNull;
 public class UserEntity {
 
 	@Id
-	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int userId;
+	private String userId;
 	@NonNull
 	private String userName;
+	private int userAge;
 	@Column(unique = true)
 	@NonNull
 	private String userEmail;
-	@NonNull
-	private String userPhone;
-	private int userAge;
 	private boolean isActive;
 }

@@ -9,6 +9,6 @@ import com.bluepact.backend.entity.UserEntity;
 
 
 @Repository
-public interface UserRepository extends JpaRepository<UserEntity, Integer>{
+public interface UserRepository extends JpaRepository<UserEntity, String>{
 	public Optional<UserEntity> findByUserEmail(String userEmail);
 }
